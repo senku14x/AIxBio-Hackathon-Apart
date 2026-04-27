@@ -2,6 +2,8 @@
 
 **AIxBio Hackathon 2026 | Track 1: DNA Screening & Synthesis Controls (CBAI)**
 
+Submission by : Vishesh Gupta (visheshgupta14x@gmail.com)
+
 This repository contains the experimental codebase for evaluating zero-shot pathogenicity representations in ESM-2 protein language models. It tests the hypothesis that PLM embeddings can serve as supplementary guardrails for DNA synthesis screening, specifically targeting sequences that evade homology-based detection (BLAST).
 
 Read the full paper: https://drive.google.com/file/d/1-q6BbqWRLkQ_mK5X3mG79UB0kL0imVXo/view?usp=sharing
@@ -25,3 +27,4 @@ The `data_pipeline.py` script contains the exact taxonomy queries and UniProt ID
     ├── evasion_test.py           # Compares local probes vs BLAST on mutated variants
     ├── evaluate_3b.py            # Executes the 3B parameter scaling ablation
     └── statistical_tests.py      # Computes Bootstrapped CIs and McNemar's p-value
+
